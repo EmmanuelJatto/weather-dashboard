@@ -1,16 +1,29 @@
 .header-container {
     background-color: purple;
-    height: 120px;
+    height: 100px;
     text-align: center;
+    margin: 1%;
 }
 
 h1 {
-    /* position: absolute; */
-    /* margin: auto;
-    text-align: center;
-    align-items: center; */
     display: inline-block;
     vertical-align: middle;
     color: white;
+    margin-top: 1.5%;
 }
 
+.custom-margin {
+    margin-left: 1%;
+}
+
+.custom-button {
+    width: 363px;
+    color: white;
+}
+
+.custom-box {
+    text-align: center;
+    border: #C8C8C8 solid;
+    background: #C8C8C8;
+    border-radius: 8px;
+}
