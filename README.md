@@ -3,5 +3,5 @@ The goal of this project was to create a weather dashboard, so that a user could
 
 The biggest challenge I faced when creating this website was, figuring out how to access the information given in the api and display it on the screen.  I solved this by calling certain functions in the api response call.  
 
-![Image of Website]()
+![Image of Website](./assets/images/screenshot-weatherboard)
 [Weather Dashboard Deployable Link]()
