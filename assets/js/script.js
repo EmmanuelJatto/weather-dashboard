@@ -3,7 +3,7 @@ const searchBox = $('#search-list');
 const weatherBox = $('#weather-card');
 
 function getLocation(cityName) {
-    const url = `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&appid=${apiKey}`;
+    const url = `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&appid=${apiKey}`;
 
     fetch(url).then(function(response) {
         return response.json();
